@@ -10,7 +10,7 @@
   },
   "bugs" : {
     "url": "https://github.com/serg1i/language-rocker/issues"
-  }
+  },
   "engines": {
     "atom": ">0.50.0"
   },
