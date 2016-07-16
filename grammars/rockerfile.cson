@@ -8,7 +8,7 @@
         'name': 'keyword.control.rockerfile'
   }
   {
-    'match': '^\\s*(ONBUILD\\s+)?(RUN|EXPOSE|ENV|ADD|COPY|VOLUME|USER|WORKDIR|CMD|ENTRYPOINT|LABEL|ARG|STOPSIGNAL)\\s'
+    'match': '^\\s*(ONBUILD\\s+)?(RUN|EXPOSE|ENV|ADD|COPY|VOLUME|USER|WORKDIR|CMD|ENTRYPOINT|LABEL|ARG|STOPSIGNAL|MOUNT|IMPORT|EXPORT|TAG|PUSH|ATTACH)\\s'
     'captures':
       '0':
         'name': 'keyword.control.rockerfile'
