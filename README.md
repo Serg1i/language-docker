@@ -1,4 +1,4 @@
-#Rocker Syntax Highlighting for Atom
+# Rocker Syntax Highlighting for Atom
 
 ## About
 This package provides Rockerfiles syntax support. Rockerfile is a file format used by [Rocker](https://github.com/grammarly/rocker "Grammarly Rocker"), a tool that extends docker functionality.
