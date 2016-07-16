@@ -2,7 +2,7 @@
   "name": "language-rocker",
   "version": "0.0.0",
   "private": false,
-  "description": "Dockerfile and Rockerfile syntax highlighting",
+  "description": "Rockerfile syntax highlighting",
   "license": "MIT",
   "repository": {
     "type": "git",
