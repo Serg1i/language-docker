@@ -1,6 +1,6 @@
 {
   "name": "language-rocker",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "private": false,
   "description": "Rockerfile syntax highlighting",
   "license": "MIT",
@@ -8,7 +8,7 @@
     "type": "git",
     "url": "https://github.com/serg1i/language-rocker.git"
   },
-  "bugs" : {
+  "bugs": {
     "url": "https://github.com/serg1i/language-rocker/issues"
   },
   "engines": {
