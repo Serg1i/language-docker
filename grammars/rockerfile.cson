@@ -1,47 +1,45 @@
-'name': 'Dockerfile'
-'fileTypes': [
-  'Dockerfile'
-]
+'name': 'Rockerfile'
+'fileTypes': ['Rockerfile']
 'patterns': [
   {
     'match': '^\\s*(MAINTAINER|FROM)\\s.*',
     'captures':
       '1':
-        'name': 'keyword.control.dockerfile'
+        'name': 'keyword.control.rockerfile'
   }
   {
     'match': '^\\s*(ONBUILD\\s+)?(RUN|EXPOSE|ENV|ADD|COPY|VOLUME|USER|WORKDIR|CMD|ENTRYPOINT|LABEL|ARG|STOPSIGNAL)\\s'
     'captures':
       '0':
-        'name': 'keyword.control.dockerfile'
+        'name': 'keyword.control.rockerfile'
       '1':
-        'name': 'keyword.other.special-method.dockerfile'
+        'name': 'keyword.other.special-method.rockerfile'
   }
   {
     'begin': '"'
     'end': '"'
-    'name': 'string.quoted.double.dockerfile'
+    'name': 'string.quoted.double.rockerfile'
     'patterns': [
       {
         'match': '\\\\.'
-        'name': 'constant.character.escaped.dockerfile'
+        'name': 'constant.character.escaped.rockerfile'
       }
     ]
   }
   {
     'begin': '\''
     'end': '\''
-    'name': 'string.quoted.single.dockerfile'
+    'name': 'string.quoted.single.rockerfile'
     'patterns': [
       {
         'match': '\\\\.'
-        'name': 'constant.character.escaped.dockerfile'
+        'name': 'constant.character.escaped.rockerfile'
       }
     ]
   }
   {
     'match': '^\\s*#.*$'
-    'name': 'comment.block.dockerfile'
+    'name': 'comment.block.rockerfile'
   }
 ]
-'scopeName': 'source.dockerfile'
+'scopeName': 'source.rockerfile'
